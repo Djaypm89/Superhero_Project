@@ -18,3 +18,6 @@ def detail(request, hero_id):
     return render(request, 'superheroes/detail.html', context)
 
     # detail.html : instructions @ 11:00 of video 7
+
+    def create(request):
+        return render(request, 'superheroes/create.html')
